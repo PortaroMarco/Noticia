@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.site-header {
+  background-color: #ffffff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.logo-container {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.noticia-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.noticia-header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.bajada {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.noticia-imagen {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.noticia-imagen img {
+  max-width: 100%;
+  height: auto;
+}
+
+.noticia-imagen figcaption {
+  font-size: 14px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.noticia-cuerpo p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.video-resumen {
+  margin-top: 30px;
+}
+
+.video-resumen h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.formulario-opinion {
+  margin-top: 40px;
+}
+
+.formulario-opinion h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.formulario-opinion form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #32378F;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #2a2f7a;
+}
